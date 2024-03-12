@@ -1,8 +1,8 @@
 async function calc_temp() {
   let city_name = document.querySelector(".search_box").value;
   console.log(city_name);
-  let str = `http://api.weatherapi.com/v1/current.json?key=b613fcba03c5443bbfb94329241103&q=${city_name}&aqi=no`;
-  let str2 = `http://api.weatherapi.com/v1/forecast.json?key=b613fcba03c5443bbfb94329241103&q=${city_name}&days=7&aqi=no&alerts=no
+  let str = `https://api.weatherapi.com/v1/current.json?key=b613fcba03c5443bbfb94329241103&q=${city_name}&aqi=no`;
+  let str2 = `https://api.weatherapi.com/v1/forecast.json?key=b613fcba03c5443bbfb94329241103&q=${city_name}&days=7&aqi=no&alerts=no
   `;
   //for 1st API
   try {
